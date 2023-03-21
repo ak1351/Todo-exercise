@@ -1,0 +1,78 @@
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  #view-div{
+    display: flex;
+    flex-direction: row;
+  }
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  
+    box-sizing: content-box;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+
+  
